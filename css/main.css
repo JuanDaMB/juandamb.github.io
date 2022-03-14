@@ -1,0 +1,191 @@
+#contenedor{
+  position:relative;
+  width:360px;
+  height:640px;
+  border:2px solid black;
+  border-radius: 21px;
+  margin:50px auto;
+  display: flex;
+  flex-direction: column;
+}
+#main{
+  position:relative;
+  width:360px;
+  height:640px;
+  border:2px solid black;
+  border-radius: 21px;
+  margin:50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+}
+#logo{
+  height: 200px;
+  width: 200px;
+  background-image: url("https://img.icons8.com/external-itim2101-lineal-itim2101/192/000000/external-world-internet-of-things-itim2101-lineal-itim2101.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translate(0%, 60%) 
+}
+
+#logoPequeño{
+  height: 50px;
+  width: 50px;
+  background-image: url("https://img.icons8.com/external-itim2101-lineal-itim2101/32/000000/external-world-internet-of-things-itim2101-lineal-itim2101.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translate(0%, 60%) 
+}
+
+#logoText{
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  transform: translate(0%, 100%) 
+}
+
+.circulo{
+  height: 50px;
+  width: 50px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.etiqueta{
+  padding: 12px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+input[type=text], input[type=password] {
+  width: 80%;
+  padding: 12px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  border: 10px solid #C4C4C4;
+  border-radius: 21px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #FCFCFC;
+  color: black;
+  padding: 12px 14px;
+  margin: 8px auto;
+  border: none;
+  border-radius: 21px;
+  cursor: pointer;
+  width: 40%;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+
+.container {
+  position: relative;
+  height: 292px;
+  width: 211px;
+  background-color: #C4C4C4;
+  border-radius: 21px;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translate(0%, 40%);
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+}
+.registro{
+  width: 232px;
+  height: 405px;
+  transform: translate(0%, 20%);
+}
+input[type=checkbox] {
+  display: inline-block;
+  border: 10px solid #C4C4C4;
+  border-radius: 21px;
+  box-sizing: border-box;
+  transform: translate(100%, 20%);
+}
+.exito{
+  position: relative;
+  width: 211px;
+  height: 102px;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translate(0%, 170%);
+  display: flex;
+  justify-content:center;
+}
+.textBox{
+  background-color: #FCFCFC;
+  width: 80%;
+  height: 50px;
+  color: #000;
+  border-radius: 21px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex; 
+  align-items: center;
+  justify-content:center;
+}
+.secciones{
+  position: relative;
+  width: 259px;
+  height: 186px;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translate(0%, 00%);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.recomendados{
+  position: relative;
+  width: 259px;
+  height: 98px;
+}
+
+.sorterRow{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:center;
+}
+
+.sorterColumn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+}
+
+.square{
+  height: 70px;
+  width: 70px;
+  background-color: #E4E4E4;
+  border-radius: 21px;
+  display: inline-block;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+.smallSquare{
+  height: 50px;
+  width: 50px;
+  background-color: #E4E4E4;
+  border-radius: 21px;
+  display: inline-block;
+  margin: 1%;
+}
