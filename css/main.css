@@ -89,6 +89,18 @@ button {
   width: 40%;
 }
 
+.button {
+  background-color: #FCFCFC;
+  color: black;
+  padding: 12px 14px;
+  margin: 8px auto;
+  border: none;
+  border-radius: 21px;
+  cursor: pointer;
+  width: 40%;
+}
+
+
 button:hover {
   opacity: 0.5;
 }
