@@ -40,7 +40,6 @@
   }
   .login{
     justify-content: space-evenly;
-    
   }
 }
 @media (max-width: 800px) {
@@ -79,6 +78,10 @@
   }
   .smallText{
   }
+  
+  .login{
+    justify-content: center;
+  }
 }
 
 .base{
@@ -96,6 +99,9 @@
   display: flex;
   flex-direction: column;
   justify-content:center;
+}
+.login{
+  justify-content: center;
 }
 #main{
   position:relative;
