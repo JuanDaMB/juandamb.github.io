@@ -17,11 +17,21 @@
     height: 366px;
   }
 
+  .seccionesJuegos{
+    width: 562px;
+    height: 366px;
+  }
+
   .square{
     width: 150px;
     height: 135px;
   }
   .recomendados{
+    width: 560px;
+    height: 190px;
+  }
+
+  .ofertas{
     width: 560px;
     height: 190px;
   }
@@ -40,6 +50,11 @@
   }
   .login{
     justify-content: space-evenly;
+  }
+
+  .seccionesespacio{
+    width: 262px;
+    height: 66px;
   }
 }
 @media (max-width: 800px) {
@@ -60,11 +75,19 @@
     width: 259px;
     height: 186px;
   }
+  .seccionesJuegos{
+    width: 259px;
+    height: 186px;
+  }
   .square{
     height: 70px;
     width: 70px;
   }
   .recomendados{
+    width: 259px;
+    height: 98px;
+  }
+  .ofertas{
     width: 259px;
     height: 98px;
   }
@@ -92,6 +115,8 @@
   background-color: #C4C4C4;
   margin-left: auto;
   margin-right: auto;
+  justify-content:center;
+  
 }
 .container {
   position: relative;
@@ -195,6 +220,111 @@ button {
   text-decoration: none;
 }
 
+.buttonJuegos {
+  background-color: #E4E4E4;
+  color: black;
+  padding: 12px 12px;
+  margin: 40px auto;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 15%;
+  height: 50%;
+  text-decoration: none;
+}
+
+.buttonJuegos2 {
+  background-color: #E4E4E4;
+  color: black;
+  padding: 12px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  width:130px;
+  height:130px;
+  margin:0 auto;
+  margin-bottom:9px;
+  border-radius:10px;
+}
+
+.buttonSalida{
+  background-color: #E4E4E4;
+  color: black;
+  padding: 12px 12px;
+  margin: 50px auto;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 35%;
+  height: 15%;
+  text-decoration: none;
+}
+
+.buttonComprar{
+  background-color: #E4E4E4;
+  color: black;
+  
+  margin-left: 300px ;
+ 
+  margin-bottom: 50px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 45%;
+  height: 5%;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+}
+.buttonComprar2{
+  background-color: #E4E4E4;
+  color: black;
+  padding: 12px 12px;
+  margin-left: 300px ;
+  margin-bottom: 50px;
+  
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 45%;
+  height: 5%;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+}
+
+.buttonComprar3{
+  background-color: #E4E4E4;
+  color: black;
+  padding: 12px 12px;
+  margin-left: 300px ;
+  margin-bottom: 80px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 45%;
+  height: 5%;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+}
+
+.buttonComprar4{
+  background-color: #E4E4E4;
+  color: black;
+  padding: 12px 12px;
+  margin-left: 300px ;
+  margin-bottom: 80px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 45%;
+  height: 5%;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+}
+
 button:hover {
   opacity: 0.5;
 }
@@ -243,7 +373,22 @@ input[type=checkbox] {
   flex-wrap: wrap;
   align-items: center;
 }
+
+.seccionesJuegos{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translate(0%, 00%);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
 .recomendados{
+  position: relative;
+}
+
+.ofertas{
   position: relative;
 }
 
@@ -272,5 +417,109 @@ input[type=checkbox] {
   background-color: #E4E4E4;
   border-radius: 21px;
   display: inline-block;
+  margin: 4%;
+}
+.smallSquarecompras{
+  background-color: #E4E4E4;
+  border-radius: 21px;
+  display: inline-block;
   margin: 1%;
 }
+
+.categorias{
+  width: 857px;
+  height: 1437px;
+  margin:100px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px; 
+  align-items: center;
+  justify-items:center;
+}
+.contenedor_img_categoria{
+  width:130px;
+  height:130px;
+  margin:0 auto;
+  margin-bottom:7px;
+  border-radius:10px;
+}
+#item_1{
+  background-color:#E4E4E4;
+}
+#item_2{
+  background-color:#E4E4E4;
+}
+#item_3{
+  background-color:#E4E4E4;
+}
+#item_4{
+  background-color:#E4E4E4;
+}
+#item_5{
+  background-color:#E4E4E4;
+}
+#item_6{
+  background-color:#E4E4E4;
+}
+#item_7{
+  background-color:#E4E4E4;
+}
+#item_8{
+  background-color:#E4E4E4;
+}
+#item_9{
+  background-color:#E4E4E4;
+}
+.item_categoria{
+  text-align:center;
+  height:80px;
+  width:80px;
+  line-height:2px; 
+  margin-top:10px;
+}
+.item_categoria span{
+  font-size:20px;
+}
+
+.categoriasotras{
+  width: 857px;
+  height: 1437px;
+  margin:100px auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px; 
+  align-items: center;
+  justify-items:center;
+}
+.contenedor_img_categoria2{
+  width:130px;
+  height:130px;
+  margin:0 auto;
+  margin-bottom:7px;
+  border-radius:10px;
+}
+#item_1{
+  background-color:#E4E4E4;
+}
+#item_2{
+  background-color:#E4E4E4;
+}
+#item_3{
+  background-color:#E4E4E4;
+}
+
+.item_categorias{
+  text-align:center;
+  height:80px;
+  width:80px;
+  line-height:2px; 
+  margin-top:10px;
+}
+.item_categorias spans{
+  font-size:20px;
+}
+
