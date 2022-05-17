@@ -253,7 +253,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
+}
+
+#mainScroll{
+  position:relative;
+  border:2px solid black;
+  border-radius: 21px;
+  margin:50px auto;
+
+  display:flex;
+  flex-direction:column;
   justify-content:center;
+  align-items:center;
+  overflow-y: scroll;
 }
 #logo{
   height: 200px;
@@ -703,3 +716,65 @@ input[type=checkbox] {
   font-size:20px;
 }
 
+.screenshotSquare1{
+  height: 162px;
+  width: 232px;
+  border-radius: 22px;
+  background: #C4C4C4;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*margin:10px auto;*/
+}
+.screenshotSquare2{
+  height: 122px;
+  width: 186px;
+  border-radius: 21px;
+  background: #FCFCFC;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scroller::-webkit-scrollbar {
+  display: none;
+}
+
+.scroller {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.dondeComprar{
+  width: 131px;
+  height: 34px;
+  background: #C4C4C4;
+  border-radius: 22px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:14px;
+  margin:20px;
+}
+.textSpaceGame{
+  width: 382px;
+  height: 162px;
+  background: #C4C4C4;
+  border-radius: 22px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.innerText{
+  text-align:center;
+  font-size:14px;
+  max-width: 300px;
+}
+
+.hide{
+  visibility:hidden;
+}
